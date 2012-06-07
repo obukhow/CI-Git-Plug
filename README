@@ -1,4 +1,4 @@
-This is a plug to avoid manual git updates by third-party persons on servers with have cantinious integration. It will show a message "Please use CI server to Update Git" instead of "git pull", "git status" and "git checkout" will work as usual.
+This is a plug to avoid manual git updates by third-party persons on servers with continious integration. It will show a message "Please use the CI server to Update Git" instead of "git pull" or any other git operations, but "git status" and "git checkout" will work as usual.
 
 To make this work, rename original git binary to git2:
 
@@ -8,4 +8,4 @@ To make this work, rename original git binary to git2:
 copy git file from this repository to /usr/bin. Add persmissions to this file to make it executable.
     sudo chmod +x git
 
-After that, you should configure CI-server to run git2 instead of git to pull chnages. 
+After that, you should configure CI-server to run "git2" instead of "git" to pull chnages. 
