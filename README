@@ -1,4 +1,4 @@
-This is a plug to avoid manual git updates by third-party persons on servers with continious integration. It will show a message "Please use the CI server to Update Git" instead of "git pull" or any other git operations, but "git status" and "git checkout" will work as usual.
+This is a plug can be used to avoid manual git updates by third-party persons on servers with a continious integration. It will show a message "Please use the CI server to update the project" instead of "git pull" or any other git operations, but "git status" and "git checkout" will work as usual.
 
 To make this work, rename original git binary to git2:
 
